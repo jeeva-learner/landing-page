@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 8px 50px;
+    padding: 8px 64px;
 }
 ul{
     list-style: none;
@@ -10,20 +10,36 @@ ul{
     margin: 0;
     gap: 16px;
 }
+.initial{
+    margin: 35px 64px;
+}
 .initial .intro{
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
 }
-.initial p{
-    width: 200px;
+.initial h1{
+    margin: 0;
+    padding: 0;
+}
+.intro .text{
+    margin: 0;
+    padding: 0;
+}
+.intro .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.intro button{
+    width: 80px;
 }
 .place_holder{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid;
+    padding: 36px;
 }
-
 .middle{
     display: flex;
     flex-direction: column;
@@ -32,21 +48,44 @@ ul{
 }
 .boxes{
     display: flex;
-    gap: 16px;
+    gap: 60px;
 }
 .cards{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.box{
+    height: 80px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: lightblue;
 }
 .middle .text{
     width: 100px;
+    text-align: center;
 }
 .quote{
     display: flex;
     flex-direction: column;
+    padding: 26px 290px;
+    margin: 36px;
+    gap: 30px;
+}
+.quote-by{
+    padding-left: 500px;
 }
 .signing-up{
     display:flex;
+    margin: 64px;
+    padding: 26px 70px;
+    justify-content: space-between;
+}
+.signing-up button{
+    margin-top: 24px;
+    margin-right: 100px;
+    height: 30px;
+    width:100px;
 }
 .footer{
     display: flex;
