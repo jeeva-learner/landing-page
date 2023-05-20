@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 8px 64px;
+    padding: 8px 115px;
     
 }
 .logo{
@@ -24,11 +24,12 @@ ul{
 }
 .initial{
     margin: 35px 64px;
-    
+    padding: 0px 51px;
 }
 .initial .intro{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .initial h1{
     margin: 0;
@@ -46,13 +47,15 @@ ul{
 .intro .content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
 }
 .intro button{
     width: 80px;
     background-color: #3882f6;
     color: white;
-    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
     padding: 5px 0px;
 }
 .place_holder{
@@ -60,15 +63,19 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius:5px;
-    padding: 36px;
+    padding: 0px 15px;
     color: white;
     background-color: #94969b;
+    width: 450px;
+    height: 200px;
+    align-self: center;
 }
 .middle{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 .middle h2{
     font-size: 36px;
@@ -100,7 +107,7 @@ ul{
     display: flex;
     flex-direction: column;
     padding: 26px 290px;
-    margin: 36px;
+    margin: 36px 0px;
     gap: 30px;
     background-color: #e5e7eb;
     border-radius: 15px;
@@ -117,7 +124,7 @@ ul{
 }
 .signing-up{
     display:flex;
-    margin: 64px;
+    margin: 64px 115px;
     padding: 26px 70px;
     justify-content: space-between;
     background-color: #3882f6;
