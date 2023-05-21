@@ -49,6 +49,10 @@ ul{
     flex-direction: column;
     gap: 16px;
 }
+.intro a{
+    text-decoration: none;
+    color: white;
+}
 .intro button{
     width: 80px;
     background-color: #3882f6;
